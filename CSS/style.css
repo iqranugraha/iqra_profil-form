@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #3E2723;
+    background-color: #2C1B1A;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFF8E1;
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #4E342E;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #D7CCC8;
+    margin: 15px 0 10px 0;
+    padding: 10px;
+    background-color: #5D4037;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #BCAAA4;
+    margin: 15px 0 10px 0;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+    border: 3px solid #6D4C41;
+}
+
+p {
+    background-color: #3E2723;
+    color: #EFEBE9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border-left: 4px solid #8D6E63;
+}
+
+ul {
+    background-color: #3E2723;
+    color: #EFEBE9;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background-color: #3E2723;
+    border-radius: 5px;
+    color: #EFEBE9;
+}
+
+th {
+    background-color: #5D4037;
+    color: #FFF8E1;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #4E342E;
+}
+
+form {
+    background-color: #3E2723;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px 0;
+    color: #EFEBE9;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #D7CCC8;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #5D4037;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #2C1B1A;
+    color: #EFEBE9;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #6D4C41;
+    color: #FFF8E1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid #8D6E63;
+}
+
+button:hover {
+    background-color: #5D4037;
+}
+
+iframe {
+    border-radius: 5px;
+    display: block;
+    margin: 15px auto;
+    border: 2px solid #5D4037;
+}
+
+a {
+    color: #BCAAA4;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 8px 15px;
+    border: 2px solid #6D4C41;
+    border-radius: 5px;
+    background-color: #3E2723;
+}
+
+a:hover {
+    background-color: #6D4C41;
+    color: #FFF8E1;
+}
